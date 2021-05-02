@@ -1,3 +1,4 @@
+# Brandon Arias CIS 245
 # weather project
 # API Key : http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=21ad8f1bef4fecfb95bd7d8328a5c54e
 # API Parameters URL - https://openweathermap.org/api/one-call-api
@@ -22,6 +23,6 @@ def by_city():
     data = res.json()
     show_data(data)
 
-# print data/readble format
+# print data/readble format function
 
 # ask again/loop
