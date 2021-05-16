@@ -74,7 +74,7 @@ def main():
         answer = input("Check the Weather! Please type 'zip' for zipcode or 'city' for city name: ")
         if answer == 'city':
             try:
-                print("Searching...")
+                print("Lets Search...")
                 by_city()
 
             except Exception:
@@ -83,7 +83,7 @@ def main():
 
         if answer == 'zip':
             try:
-                print("Searching...")
+                print("Lets Search...")
                 by_zip()
 
             except Exception:
