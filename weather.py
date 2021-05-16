@@ -17,12 +17,13 @@ def by_zip():
         data = res.json()
         show_data(data)
 
-        anotherZip = input('Check Weather in a Different Zip Code? Type Yes or No: ')
-        if question == 'Yes':
+        anotherZip = input('Check Weather in a Different Area? Type yes or no: ')
+
+        if anotherZip == 'yes':
 
             main()
 
-        if question == 'No':
+        if anotherZip == 'no':
             print("Thanks for Using!")
 
             exit()
@@ -36,11 +37,12 @@ def by_city():
     data = res.json()
     show_data(data)
 
-    anotherCity = input('Check Weather in a Different City? Type Yes or No: ')
-    if question == 'Yes':
+    anotherCity = input('Check Weather in a Different Area? Type yes or no: ')
+
+    if anotherCity == 'yes':
         main()
 
-    if question == 'No':
+    if anotherCity == 'no':
         print("Thanks for Using!")
         exit()
 
@@ -92,6 +94,5 @@ def main():
 
         else:
             print("Invalid Entry. Enter one of the options.")
-
 
 main()
