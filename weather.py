@@ -3,6 +3,7 @@
 # API Key : http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=21ad8f1bef4fecfb95bd7d8328a5c54e
 # API Parameters URL - https://openweathermap.org/api/one-call-api
 
+import requests
 # create main function/welcome message
 
 print("Local Weather Report")
@@ -37,10 +38,11 @@ def by_city():
 
     anotherCity = input('Check Weather in a Different City? Type Yes or No: ')
     if question == 'Yes':
-    main()
+        main()
+
     if question == 'No':
-    print("Thanks for Using!")
-    exit()
+        print("Thanks for Using!")
+        exit()
 
 # print data/readble format function
 
